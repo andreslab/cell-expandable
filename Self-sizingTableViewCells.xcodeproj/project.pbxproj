@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90C339C1EFD7C5C00E9C0DD /* ArtistListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90C339B1EFD7C5C00E9C0DD /* ArtistListViewController.swift */; };
+		D90C339E1EFD7D2600E9C0DD /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90C339D1EFD7D2600E9C0DD /* ArtistDetailViewController.swift */; };
 		D966CF841EFD78E50045CEE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D966CF831EFD78E50045CEE4 /* AppDelegate.swift */; };
 		D966CF861EFD78E50045CEE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D966CF851EFD78E50045CEE4 /* ViewController.swift */; };
 		D966CF891EFD78E50045CEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D966CF871EFD78E50045CEE4 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90C339B1EFD7C5C00E9C0DD /* ArtistListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistListViewController.swift; sourceTree = "<group>"; };
+		D90C339D1EFD7D2600E9C0DD /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
 		D966CF801EFD78E50045CEE4 /* Self-sizingTableViewCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self-sizingTableViewCells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D966CF831EFD78E50045CEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D966CF851EFD78E50045CEE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				D966CF8A1EFD78E50045CEE4 /* Assets.xcassets */,
 				D966CF8C1EFD78E60045CEE4 /* LaunchScreen.storyboard */,
 				D966CF8F1EFD78E60045CEE4 /* Info.plist */,
+				D90C339B1EFD7C5C00E9C0DD /* ArtistListViewController.swift */,
+				D90C339D1EFD7D2600E9C0DD /* ArtistDetailViewController.swift */,
 			);
 			path = "Self-sizingTableViewCells";
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90C339E1EFD7D2600E9C0DD /* ArtistDetailViewController.swift in Sources */,
 				D966CF861EFD78E50045CEE4 /* ViewController.swift in Sources */,
 				D966CF841EFD78E50045CEE4 /* AppDelegate.swift in Sources */,
+				D90C339C1EFD7C5C00E9C0DD /* ArtistListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				D966CF941EFD78E60045CEE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
